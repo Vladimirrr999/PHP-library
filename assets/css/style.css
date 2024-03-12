@@ -1,0 +1,108 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:28px;
+}
+.set-radius-zero {
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+}
+
+.header-line {
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5rem 0 4rem 0;
+}
+
+
+#logo{ 
+    width: 50%;
+}
+
+.right-div {
+    float: right; 
+    padding: 20px;
+}
+#menu-top a {
+    color:#000;
+    text-decoration:none;
+    font-weight:500;
+    padding: 25px 15px 25px 15px;
+    text-transform:uppercase;
+
+}
+.menu-section {
+    background-color: #f7f7f7;
+    width:100%;
+    position: relative;
+    bottom: 7rem;
+}
+.menu-top-active {
+    background-color:#eeeeee;
+}
+.navbar-inverse {
+background-color: #FFF;
+border-color: rgba(155, 153, 153, 0.23);
+
+}
+
+.navbar {
+    min-height: 90px;
+    margin-bottom: 0px;
+   
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color:transparent;
+}
+.navbar-toggle {
+background-color: black;
+border: 1px solid black;
+}
+
+    /* =============================================================
+   DASHBOARD STYLES
+ ============================================================ */
+
+.img-comments {
+   border: 3px double #e1e1e1;
+   height: 60px;
+}
+
+.recent-users-sec img {
+    max-height:80px;
+    margin:15px;
+}
+
+.back-widget-set {
+    background-color:transparent;
+}
+
+.footer-section {
+    padding:25px 50px 25px 50px;
+    margin-top: 21rem;
+    color:#000;
+    font-size:13px;
+    background-color: #f7f7f7;
+    text-align:right;
+}
+
+.footer-section a, .footer-section a:hover {
+    color:#000;
+}
+
+#emailError, #passwordError {
+    color:red;
+}
+.error{
+    color:red;
+}
+.centr{
+    width:50% !important;
+}
